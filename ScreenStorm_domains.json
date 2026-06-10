@@ -1,0 +1,222 @@
+{
+  "system": "ScreenStorm",
+  "title": "Screen Storm",
+  "updatedAt": "2026-06-10T12:00:00Z",
+  "version": "v1.0.0",
+  "domains": [
+    {
+      "id": "production_tools",
+      "label": "Production Tools",
+      "impact": 91,
+      "sentiment": 0.80,
+      "sentiment_basis": "AI tools are delivering real productivity gains in VFX, pre-vis, and dubbing. The pipeline is transforming faster than studios can govern it, but the efficiency wins are undeniable.",
+      "news": [
+        {
+          "id": "pt-001", "headline": "McKinsey: studios expect 80–90% efficiency gains in VFX and 3D asset creation from generative AI",
+          "summary": "Studio executives interviewed by McKinsey ahead of Sundance 2026 reported expectations of transformative efficiency gains in VFX and 3D pipeline work, with generative AI shifting the 'fix it in post' mentality to 'fix it in pre.'",
+          "impact": 93, "weight": 1.0, "sentiment": 0.85, "publishedAt": "2026-01-20", "source": "McKinsey", "url": "https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/tech-forward/how-ai-could-reinvent-film-and-tv-production"
+        },
+        {
+          "id": "pt-002", "headline": "AI rotoscoping tools reduce VFX processing time by up to 90%",
+          "summary": "Generative AI has reduced the time taken for rotoscoping — one of the most labor-intensive VFX tasks — by up to 90%, compressing timelines that previously took weeks into hours.",
+          "impact": 88, "weight": 0.95, "sentiment": 0.78, "publishedAt": "2026-02-01", "source": "WifiTalents / Industry Data", "url": "https://wifitalents.com/ai-film-industry-statistics/"
+        },
+        {
+          "id": "pt-003", "headline": "OpenAI Sora and Runway Gen-3 Alpha now integrated into professional film pre-visualization pipelines",
+          "summary": "Advanced video generation models are now embedded in professional pre-vis workflows, reducing storyboarding and previsualization costs by up to 70% and allowing filmmakers to iterate on complex shots in minutes rather than weeks.",
+          "impact": 90, "weight": 0.97, "sentiment": 0.82, "publishedAt": "2026-02-21", "source": "MEXC / Industry Analysis", "url": "https://www.mexc.com/it-IT/news/766464"
+        },
+        {
+          "id": "pt-004", "headline": "AI dubbing platform Neural Garage demonstrates production-ready lip-sync localization at scale",
+          "summary": "Neural Garage's VisualDub has proven that AI-driven lip-sync dubbing can reduce localization costs significantly, enabling studios to release simultaneous multilingual versions without traditional dubbing studio bottlenecks.",
+          "impact": 82, "weight": 0.88, "sentiment": 0.80, "publishedAt": "2026-02-21", "source": "Vitrina AI", "url": "https://vitrina.ai/blog/ai-in-film-making-strategic-framework/"
+        },
+        {
+          "id": "pt-005", "headline": "44% of film productions now use AI for script breakdowns and character analysis",
+          "summary": "Nearly half of active film productions have integrated AI tools into their development and pre-production pipeline for script analysis, with adoption accelerating among mid-budget productions.",
+          "impact": 78, "weight": 0.84, "sentiment": 0.76, "publishedAt": "2026-03-01", "source": "WifiTalents", "url": "https://wifitalents.com/ai-film-industry-statistics/"
+        },
+        {
+          "id": "pt-006", "headline": "Generative AI market for creative industries surges to $5.38B in 2026",
+          "summary": "The market for generative AI specifically in creative industries has reached $5.38 billion in 2026, with the broader AI in media and entertainment market on track to reach $99.48B by 2030 at a 26.9% CAGR.",
+          "impact": 86, "weight": 0.91, "sentiment": 0.83, "publishedAt": "2026-02-21", "source": "MEXC / WifiTalents", "url": "https://www.mexc.com/it-IT/news/766464"
+        }
+      ]
+    },
+    {
+      "id": "creative_labor",
+      "label": "Creative Labor",
+      "impact": 82,
+      "sentiment": 0.48,
+      "sentiment_basis": "SAG-AFTRA deal is a genuine win for performers, but 204,000 entertainment positions remain projected to be impacted. VFX artist rates under pressure. The 'Tilly tax' proposal shows how far ahead the problem is from the solution.",
+      "news": [
+        {
+          "id": "cl-001", "headline": "SAG-AFTRA members ratify four-year deal with expanded AI protections by 91.42% vote",
+          "summary": "Actors approved new TV/Theatrical/Streaming contracts on June 4, 2026, earning stronger restrictions against AI synthetic performers through 2030. Producers must now prove AI performers bring 'significant additional value' over human actors.",
+          "impact": 92, "weight": 1.0, "sentiment": 0.72, "publishedAt": "2026-06-04", "source": "SAG-AFTRA / Variety / LA Mag", "url": "https://lamag.com/arts-and-entertainment/sag-aftra-approves-amptp-deal-with-expanded-ai-protections-in-landslide-vote/"
+        },
+        {
+          "id": "cl-002", "headline": "204,000 entertainment industry positions projected to be impacted by generative AI by 2026",
+          "summary": "Industry data shows 204,000 entertainment positions at risk from generative AI, with 75% of film industry respondents admitting AI will eliminate some job roles — and 80,000 positions specifically vulnerable to AI video generation tools.",
+          "impact": 88, "weight": 0.95, "sentiment": 0.18, "publishedAt": "2026-02-12", "source": "WifiTalents", "url": "https://wifitalents.com/ai-film-industry-statistics/"
+        },
+        {
+          "id": "cl-003", "headline": "SAG-AFTRA proposes 'Tilly tax' — royalty fee whenever AI-generated performers appear in productions",
+          "summary": "The union proposed requiring studios to pay royalty fees into pension and health funds whenever synthetic AI performers appear in productions — described by the union's own AI task force as 'the best bad idea we've got in 2026.'",
+          "impact": 80, "weight": 0.87, "sentiment": 0.45, "publishedAt": "2026-01-30", "source": "Variety", "url": "https://variety.com/2026/film/news/sag-aftra-ai-tilly-norwood-tax-digital-performers-1236644931/"
+        },
+        {
+          "id": "cl-004", "headline": "Outpost VFX CEO warns aggressive AI-replacement postures create labor risk before picture lock",
+          "summary": "Duncan McWilliam of Outpost VFX stated openly that studios treating AI as a replacement strategy — rather than a capacity multiplier for existing talent — are accumulating labor risk that surfaces before completion.",
+          "impact": 76, "weight": 0.82, "sentiment": 0.40, "publishedAt": "2026-02-21", "source": "Vitrina AI", "url": "https://vitrina.ai/blog/ai-in-film-making-strategic-framework/"
+        },
+        {
+          "id": "cl-005", "headline": "DGA continues negotiations with AMPTP ahead of June 30 contract expiration with AI central",
+          "summary": "With the SAG-AFTRA deal ratified, attention shifts to the Directors Guild of America, whose contract expires June 30, 2026. Key issues are jobs, AI, and healthcare — and no deal has yet been reached.",
+          "impact": 84, "weight": 0.90, "sentiment": 0.35, "publishedAt": "2026-06-05", "source": "Variety / Hollywood Reporter", "url": "https://variety.com/2026/film/news/sag-aftra-ratification-ai-pension-merger-1236767288/"
+        }
+      ]
+    },
+    {
+      "id": "studio_strategy",
+      "label": "Studio Strategy",
+      "impact": 87,
+      "sentiment": 0.68,
+      "sentiment_basis": "Studios are committing to AI but navigating labor and audience trust risks carefully. Disney-OpenAI deal sets a licensing template. Netflix's acquisition signals M&A as the primary AI adoption path for majors.",
+      "news": [
+        {
+          "id": "ss-001", "headline": "Disney launches closed beta of AI production tools for character consistency and VFX pipelines",
+          "summary": "Disney launched a closed beta of AI production tools by early 2026, targeting character consistency, pre-production, and VFX pipelines across its broader content slate — signaling deep AI integration at the studio level.",
+          "impact": 90, "weight": 1.0, "sentiment": 0.74, "publishedAt": "2026-02-01", "source": "Robert Tercek / Substack", "url": "https://tercek.substack.com/p/ai-wont-kill-hollywood"
+        },
+        {
+          "id": "ss-002", "headline": "Netflix acquires InterPositive, Ben Affleck's AI post-production company",
+          "summary": "Netflix acquired InterPositive — an AI filmmaking company founded by Ben Affleck — which develops tools for post-production tasks including editing. One of the first major studio acquisitions of a dedicated AI filmmaking company.",
+          "impact": 86, "weight": 0.93, "sentiment": 0.76, "publishedAt": "2026-03-10", "source": "PYMNTS / Axios", "url": "https://www.pymnts.com/artificial-intelligence-2/2026/lights-camera-algorithm-as-ai-joins-the-film-crew/"
+        },
+        {
+          "id": "ss-003", "headline": "OpenAI and Disney establish IP licensing model for Sora video generation platform",
+          "summary": "OpenAI announced a partnership allowing Disney's characters and IP to be used within Sora, establishing a licensing framework that could let media companies participate in generative video tool development rather than fight it.",
+          "impact": 88, "weight": 0.95, "sentiment": 0.75, "publishedAt": "2026-03-15", "source": "PYMNTS", "url": "https://www.pymnts.com/artificial-intelligence-2/2026/lights-camera-algorithm-as-ai-joins-the-film-crew/"
+        },
+        {
+          "id": "ss-004", "headline": "60% of audiences say they would be less likely to watch a film written entirely by AI",
+          "summary": "Consumer research shows a strong audience trust gap: despite AI's growing role in production, 60% of viewers say AI-written films would reduce their likelihood of watching — a significant commercial risk for studios moving too fast.",
+          "impact": 80, "weight": 0.87, "sentiment": 0.30, "publishedAt": "2026-02-12", "source": "WifiTalents", "url": "https://wifitalents.com/ai-film-industry-statistics/"
+        },
+        {
+          "id": "ss-005", "headline": "72% of consumers concerned about deepfake videos in entertainment — trust crisis emerging",
+          "summary": "Nearly three-quarters of consumers report concern about AI-generated deepfake content in entertainment — a growing audience trust problem that studios must manage alongside productivity gains.",
+          "impact": 76, "weight": 0.82, "sentiment": 0.22, "publishedAt": "2026-02-12", "source": "WifiTalents", "url": "https://wifitalents.com/ai-film-industry-statistics/"
+        },
+        {
+          "id": "ss-006", "headline": "Generative AI enables non-destructive fluid workflow — overturning Hollywood's locked sequential process",
+          "summary": "Analysts note that generative AI is inverting the traditional production cone: instead of creative options narrowing as production proceeds, they can now expand — with characters replaceable and settings swappable after story lock.",
+          "impact": 82, "weight": 0.88, "sentiment": 0.78, "publishedAt": "2026-05-04", "source": "Robert Tercek / Substack", "url": "https://tercek.substack.com/p/ai-wont-kill-hollywood"
+        }
+      ]
+    },
+    {
+      "id": "ip_copyright",
+      "label": "IP & Copyright",
+      "impact": 84,
+      "sentiment": 0.30,
+      "sentiment_basis": "Deeply contested territory. Training data lawsuits unresolved, likeness rights inadequately protected, deepfake replication at scale. The SAG-AFTRA deal is a partial positive but the legal framework lags the technology by years.",
+      "news": [
+        {
+          "id": "ip-001", "headline": "Industry groups argue generative video systems trained on copyrighted film without licensing",
+          "summary": "Entertainment industry groups contend that generative video models capable of producing photorealistic scenes are trained on copyrighted film and television content without licensing agreements or compensation — with no resolution in sight.",
+          "impact": 88, "weight": 1.0, "sentiment": 0.15, "publishedAt": "2026-03-17", "source": "PYMNTS", "url": "https://www.pymnts.com/artificial-intelligence-2/2026/lights-camera-algorithm-as-ai-joins-the-film-crew/"
+        },
+        {
+          "id": "ip-002", "headline": "SAG-AFTRA 2026 contract restricts digital replica use — producers must show 'significant additional value'",
+          "summary": "The ratified SAG-AFTRA agreement expands digital replica protections, requiring producers to provide 'an articulable business reason' to scan actors and prove synthetic performers add significant value over a live actor.",
+          "impact": 90, "weight": 0.97, "sentiment": 0.62, "publishedAt": "2026-06-04", "source": "SAG-AFTRA / Hollywood Reporter", "url": "https://www.hollywoodreporter.com/business/business-news/sag-aftra-four-year-deal-studios-new-ai-protections-1236590891/"
+        },
+        {
+          "id": "ip-003", "headline": "California AB 1836 and AB 2602 signed into law protecting deceased performers' digital likenesses",
+          "summary": "California laws signed by Governor Newsom prohibit unauthorized AI replicas of deceased performers, establishing some of the strongest likeness rights protections in the US — though enforcement against non-California productions remains unclear.",
+          "impact": 78, "weight": 0.84, "sentiment": 0.60, "publishedAt": "2025-09-01", "source": "SAG-AFTRA", "url": "https://www.sagaftra.org/contracts-industry-resources/member-resources/artificial-intelligence"
+        },
+        {
+          "id": "ip-004", "headline": "NO FAKES Act still stalled in Congress as AI likeness replication accelerates",
+          "summary": "The NO FAKES Act, introduced in the US House to prohibit unauthorized AI-generated likenesses, remains stalled — leaving a federal regulatory vacuum as AI tools capable of replicating performers' appearances become widely accessible.",
+          "impact": 82, "weight": 0.88, "sentiment": 0.18, "publishedAt": "2025-09-01", "source": "SAG-AFTRA", "url": "https://www.sagaftra.org/contracts-industry-resources/member-resources/artificial-intelligence"
+        },
+        {
+          "id": "ip-005", "headline": "'Tilly Norwood' synthetic actor crystallizes AI likeness fears — SAG-AFTRA cannot legally stop her",
+          "summary": "The emergence of Tilly Norwood — a fully synthetic digital performer — crystallized the industry's AI fears. SAG-AFTRA acknowledges it cannot legally stop synthetic actors from taking roles under current law; it can only seek payment.",
+          "impact": 84, "weight": 0.90, "sentiment": 0.12, "publishedAt": "2026-01-30", "source": "Variety", "url": "https://variety.com/2026/film/news/sag-aftra-ai-tilly-norwood-tax-digital-performers-1236644931/"
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "label": "Investment",
+      "impact": 86,
+      "sentiment": 0.76,
+      "sentiment_basis": "Strong investment signal — $2.5B into generative video startups already, streaming platforms acquiring AI companies. The $99B market projection by 2030 is driving significant capital allocation.",
+      "news": [
+        {
+          "id": "inv-s-001", "headline": "$2.5B invested in generative AI startups focused on video and film production through 2025",
+          "summary": "Venture capital investment in generative AI startups specifically targeting video and film has reached $2.5 billion, reflecting strong investor conviction that the production pipeline is a primary AI transformation frontier.",
+          "impact": 88, "weight": 1.0, "sentiment": 0.84, "publishedAt": "2026-01-01", "source": "WifiTalents", "url": "https://wifitalents.com/ai-film-industry-statistics/"
+        },
+        {
+          "id": "inv-s-002", "headline": "AI in media and entertainment market projected to reach $99.48B by 2030 at 26.9% CAGR",
+          "summary": "The global market for AI in media and entertainment is forecast to nearly reach $100 billion by 2030, growing at 26.9% annually — one of the highest projected CAGRs across all AI application verticals.",
+          "impact": 85, "weight": 0.91, "sentiment": 0.86, "publishedAt": "2026-02-12", "source": "WifiTalents / Market Research", "url": "https://wifitalents.com/ai-film-industry-statistics/"
+        },
+        {
+          "id": "inv-s-003", "headline": "Netflix acquires InterPositive in first major studio M&A deal for AI filmmaking tools",
+          "summary": "Netflix's acquisition of Ben Affleck's InterPositive sets a template for how streaming platforms will acquire rather than build AI production capabilities — signaling M&A as the dominant adoption strategy.",
+          "impact": 82, "weight": 0.88, "sentiment": 0.78, "publishedAt": "2026-03-10", "source": "PYMNTS", "url": "https://www.pymnts.com/artificial-intelligence-2/2026/lights-camera-algorithm-as-ai-joins-the-film-crew/"
+        },
+        {
+          "id": "inv-s-004", "headline": "LED volume stage and real-time Unreal Engine workflows delivering maximum ROI for AI-native productions in 2026",
+          "summary": "Productions running LED volume stages with real-time Unreal Engine environments — reducing location costs, weather risk, and travel — are seeing the highest ROI from AI in 2026, particularly when pre-visualization feeds directly into stage operations.",
+          "impact": 78, "weight": 0.84, "sentiment": 0.80, "publishedAt": "2026-02-21", "source": "Vitrina AI", "url": "https://vitrina.ai/blog/ai-in-film-making-strategic-framework/"
+        },
+        {
+          "id": "inv-s-005", "headline": "AI film education sector expanding — Full Sail, Kentucky Wesleyan, AI Filmmaker Academy launch dedicated programs",
+          "summary": "Educational institutions are racing to serve demand for AI filmmaking skills. Kentucky Wesleyan College, Full Sail DC3, and the AI Filmmaker Academy have all launched programs in 2026 blending traditional filmmaking with generative AI tools.",
+          "impact": 70, "weight": 0.75, "sentiment": 0.78, "publishedAt": "2026-01-12", "source": "FilmLocal", "url": "https://filmlocal.com/filmmaking/why-hollywood-editors-are-quietly-using-ai-filmmaking/"
+        }
+      ]
+    },
+    {
+      "id": "software_dev",
+      "label": "Software Dev",
+      "impact": 83,
+      "sentiment": 0.74,
+      "sentiment_basis": "Unreal Engine and real-time rendering are reshaping what's possible. AI tool fragmentation is a real problem — 600K+ companies in opaque silos. Pipeline software is evolving faster than productions can vet it.",
+      "news": [
+        {
+          "id": "swd-s-001", "headline": "Real-time Unreal Engine virtual production now standard for AI-native film productions",
+          "summary": "Unreal Engine's real-time rendering has become the backbone of AI-native virtual production, enabling LED volume stages and generative pre-vis to feed directly into principal photography — eliminating the traditional pre-vis-to-production gap.",
+          "impact": 86, "weight": 1.0, "sentiment": 0.84, "publishedAt": "2026-02-21", "source": "Vitrina AI", "url": "https://vitrina.ai/blog/ai-in-film-making-strategic-framework/"
+        },
+        {
+          "id": "swd-s-002", "headline": "AI tool fragmentation paradox: 600,000+ companies in opaque silos overwhelming production teams",
+          "summary": "The AI tool market for film production has expanded faster than any team can vet. The 'Fragmentation Paradox' means productions face thousands of AI tool claimants with no proportional verification infrastructure — creating adoption risk.",
+          "impact": 78, "weight": 0.84, "sentiment": 0.28, "publishedAt": "2026-02-21", "source": "Vitrina AI", "url": "https://vitrina.ai/blog/ai-in-film-making-strategic-framework/"
+        },
+        {
+          "id": "swd-s-003", "headline": "NVIDIA Cosmos 3 simulation used to generate synthetic surgical training videos for robots",
+          "summary": "NVIDIA's Cosmos 3 simulation capabilities are being used to create synthetic videos of rare medical scenarios for surgical robot training — demonstrating how simulation-to-production pipelines originally built for VFX are migrating to other high-stakes domains.",
+          "impact": 80, "weight": 0.86, "sentiment": 0.82, "publishedAt": "2026-06-02", "source": "AIApps", "url": "https://www.aiapps.com/blog/ai-news-breakthroughs-launches-trends-must-read/"
+        },
+        {
+          "id": "swd-s-004", "headline": "Hollywood editors quietly adopting AI filmmaking tools despite guild uncertainty",
+          "summary": "Post-production professionals are integrating AI editing and color tools in day-to-day work ahead of formal guild guidance — reshaping how post-production happens while formal policy lags behind practice.",
+          "impact": 74, "weight": 0.79, "sentiment": 0.60, "publishedAt": "2026-01-12", "source": "FilmLocal", "url": "https://filmlocal.com/filmmaking/why-hollywood-editors-are-quietly-using-ai-filmmaking/"
+        },
+        {
+          "id": "swd-s-005", "headline": "Boundary between live action and CGI has 'blurred' — neural rendering makes distinction irrelevant",
+          "summary": "Industry analysts note that neural rendering and virtual production have eliminated the meaningful distinction between live action and CGI for many production types, with real-time generative environments indistinguishable from location shoots at a fraction of the cost.",
+          "impact": 82, "weight": 0.88, "sentiment": 0.75, "publishedAt": "2026-02-21", "source": "MEXC / Industry Analysis", "url": "https://www.mexc.com/it-IT/news/766464"
+        }
+      ]
+    }
+  ]
+}
