@@ -8,6 +8,12 @@
     "headline": "Full storm. No calm domains in sight.",
     "narrative": "Every sector is under pressure — AI Research and Business Adoption are feeding the system with job-loss data and headcount-cut mandates, while Social Impact and Entry-Level Erosion sit at the eye wall, with Yale's career-ladder findings and graduate unemployment rising twice as fast as the broader workforce driving the deepest vortex in the ring."
   },
+    "version": "v1.0.0",
+    "display_summary": {
+    "condition_label": "Variable",
+    "headline": "Patchy clouds, one squall in the legal sector.",
+    "narrative": "Production Tools, Studio Strategy, Investment, and Software Dev are holding clear skies with strong tailwinds from AI efficiency gains — but IP & Copyright is the persistent trouble spot, with synthetic actors like Tilly Norwood and unresolved training-data disputes keeping a squall parked over the rights sector."
+  },
   "domains": [
     {
       "id": "ai_research",
