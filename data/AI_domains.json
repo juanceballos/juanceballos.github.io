@@ -3,6 +3,11 @@
   "title": "AI Weather",
   "updatedAt": "2026-06-10T12:00:00Z",
   "version": "v2.2.0",
+    "display_summary": {
+    "condition_label": "Partly Cloudy",
+    "headline": "Mostly clear, one slow storm gathering.",
+    "narrative": "AI Research, Business Adoption, Software Dev, and Investment are all running smooth — but Social Impact is the outlier, with Hinton's job-loss warnings and Brookings' 3.5M vulnerable workers report feeding a persistent low-pressure cell on the ring."
+  },
   "domains": [
     {
       "id": "ai_research",
