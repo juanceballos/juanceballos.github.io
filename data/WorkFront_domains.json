@@ -3,6 +3,11 @@
   "title": "Work Front",
   "updatedAt": "2026-06-10T12:00:00Z",
   "version": "v1.0.0",
+  "display_summary": {
+    "condition_label": "Category 2+ Storm",
+    "headline": "Full storm. No calm domains in sight.",
+    "narrative": "Every sector is under pressure — AI Research and Business Adoption are feeding the system with job-loss data and headcount-cut mandates, while Social Impact and Entry-Level Erosion sit at the eye wall, with Yale's career-ladder findings and graduate unemployment rising twice as fast as the broader workforce driving the deepest vortex in the ring."
+  },
   "domains": [
     {
       "id": "ai_research",
