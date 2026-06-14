@@ -3,6 +3,11 @@
   "title": "Screen Storm",
   "updatedAt": "2026-06-10T12:00:00Z",
   "version": "v1.0.0",
+  "display_summary": {
+    "condition_label": "Variable",
+    "headline": "Patchy clouds, one squall in the legal sector.",
+    "narrative": "Production Tools, Studio Strategy, Investment, and Software Dev are holding clear skies with strong tailwinds from AI efficiency gains — but IP & Copyright is the persistent trouble spot, with synthetic actors like Tilly Norwood and unresolved training-data disputes keeping a squall parked over the rights sector."
+  },
   "domains": [
     {
       "id": "production_tools",
