@@ -103,8 +103,8 @@ Add it to GitHub: **Settings → Secrets → Actions → New secret → `RENDER_
 
 **Step 3 — Make the GHCR package public (2 min, after first push)**
 
-The first `state:review` label triggers a Docker build and pushes the image to GHCR.
-After that first push:
+The first push to the repo (or `state:review` label) triggers a Docker build and pushes
+the image to GHCR. After that first push:
 
 GitHub → your profile → **Packages** → find the image → **Settings** → **Change visibility → Public**
 
@@ -113,14 +113,17 @@ Render's free tier pulls images without auth, so the package must be public.
 **How the full flow works after setup**
 
 ```
-state:review applied
-  → docker-build.yml: builds Docker image, pushes ghcr.io/<owner>/<repo>:latest to GHCR
+push to any branch (including merges to main)
+  → docker-build.yml: builds the Docker image and pushes it to GHCR
+      - main           → ghcr.io/<owner>/<repo>:latest
+      - other branches → ghcr.io/<owner>/<repo>:preview
+      - always also    → ghcr.io/<owner>/<repo>:sha-<short-sha>
   → deploy-render.yml: POSTs to RENDER_DEPLOY_HOOK
-  → Render pulls latest image and redeploys
+  → Render pulls the latest image and redeploys
   → https://your-service.onrender.com is live (~3-5 min total)
 
-merge PR to main
-  → docker-build.yml also triggers on push to main (production redeploy)
+state:review label applied
+  → docker-build.yml also builds/pushes an image on demand (same tagging rules)
 ```
 
 **Local development with Docker**
@@ -161,6 +164,10 @@ The `docker-build.yml` workflow is platform-agnostic and stays unchanged.
 
 `demo-app/` shows the SDLC applied to a real React dashboard project.
 `demo-app/pms-sdlc/` holds the framework config, templates, and story history.
+
+See [`demo-app/pms-sdlc/README.md`](demo-app/pms-sdlc/README.md) for full docs,
+workflow table, token guide, and repo structure reference.
+
 
 # Get in touch
 If you'd like to know more, discuss the project, or ask about access to anything not covered here, feel free to reach out at https://www.linkedin.com/in/juanceballos/ .
