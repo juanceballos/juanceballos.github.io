@@ -162,5 +162,5 @@ The `docker-build.yml` workflow is platform-agnostic and stays unchanged.
 `demo-app/` shows the SDLC applied to a real React dashboard project.
 `demo-app/pms-sdlc/` holds the framework config, templates, and story history.
 
-See [`demo-app/pms-sdlc/README.md`](demo-app/pms-sdlc/README.md) for full docs,
-workflow table, token guide, and repo structure reference.
+# Get in touch
+If you'd like to know more, discuss the project, or ask about access to anything not covered here, feel free to reach out at https://www.linkedin.com/in/juanceballos/ .
